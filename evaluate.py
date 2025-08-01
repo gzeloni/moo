@@ -44,7 +44,7 @@ def evaluate(problems, save_dir='results'):
     return results
 
 
-if __name__ == "__main":
+if __name__ == "__main__":
     problems = [RCM06(), RCM13(), RCM28(), RCM29()]
     results = evaluate(problems)
     for result in results:
